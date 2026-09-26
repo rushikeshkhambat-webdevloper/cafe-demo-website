@@ -1,16 +1,104 @@
-# React + Vite
+# ☕ Cafe Demo Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A warm, inviting single-page website for a cafe — built to showcase menu, ambiance, and reservation flow with a cozy aesthetic.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://cafe-demo-website-phi.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🏠 Hero section with call-to-action
+- 📖 Menu section with categories
+- 🖼️ Gallery of cafe ambiance
+- 📅 Reservation / contact form
+- 📱 Fully responsive layout
+- 🌙 Smooth scroll and animations
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Layer | Tech |
+|-------|------|
+| Framework | React.js |
+| Build Tool | Vite |
+| Styling | CSS / Tailwind CSS |
+| Animations | Framer Motion / CSS |
+| Deployment | Vercel |
+
+---
+
+## 📸 Screenshots
+
+### Hero Section
+![Hero](./screenshots/hero.png)
+
+### Menu
+![Menu](./screenshots/menu.png)
+
+### Reservation
+![Reservation](./screenshots/reservation.png)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/rushikeshkhambat-webdevloper/cafe-demo-website.git
+cd cafe-demo-website
+npm install
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.
+
+### Build
+
+```bash
+npm run build
+```
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Menu.jsx
+│   ├── Gallery.jsx
+│   └── Contact.jsx
+├── assets/
+└── App.jsx
+```
+
+---
+
+## 🔮 Future Improvements
+
+- [ ] Online table booking with backend
+- [ ] Order online feature
+- [ ] Multi-language support
+- [ ] Blog / events section
+
+---
+
+## 👨‍💻 Author
+
+**Rushikesh Khambat**
+- GitHub: https://github.com/rushikeshkhambat-webdevloper
+
+---
+
+## 📄 License
+
+MIT License
